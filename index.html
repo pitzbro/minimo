@@ -1,96 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minimø</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css" />
 </head>
+
 <body>
-
     <div class="main-screen" onclick="toggleMenu()"></div>
-
-    <header class="main-header container flex space-between align-center">
+    <header class="main-header main-layout flex space-between align-center">
         <div class="logo">Minimø</div>
-        <ul class="main-nav flex clean-list">
-            <li><a href="#">Lifestyle</a></li>
-            <li><a href="#">Photodiary</a></li>
-            <li><a href="#">Music</a></li>
-            <li><a href="#">Travel</a></li>
-        </ul>
-        <button class="btn-menu" onclick="toggleMenu()">☰</button>
+        <nav class="main-nav-container">
+            <ul class="main-nav clean-list flex">
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Travel</a></li>
+                <li><a href="#">Photodiary</a></li>
+            </ul>
+            <button class="btn-menu" onclick="toggleMenu()">☰</button>
+        </nav>
     </header>
-
-    <main class="main-content container card-container">
-
+    <main class="main-content card-layout main-layout">
         <div class="card">
-            <img class="card-image" src="/images/001.jpg" alt="">
+            <img src="img/001.jpg" alt="" class="card-image" />
             <div class="card-tag">Photodiary</div>
             <h2 class="card-title">The perfect weekend getaway</h2>
             <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                Lorem ipsum dolor sit amet,
+                <a href="#">consectetur adipisicing elit,</a> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+                error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+                labore et dolore magnam aliquam quaerat voluptatem.
             </p>
         </div>
-
         <div class="card">
-            <img class="card-image" src="/images/002.jpg" alt="">
-            <div class="card-tag">Photodiary</div>
-            <h2 class="card-title">The perfect weekend getaway</h2>
-            <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            </p>
-        </div>
-
-        <div class="card">
-            <img class="card-image" src="/images/003.jpg" alt="">
+            <img src="img/002.jpg" alt="" class="card-image" />
             <div class="card-tag">Lifestyle</div>
-            <h2 class="card-title">More than just a music festival </h2>
-            <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            </p>
-        </div>
-
-        <div class="card">
-            <img class="card-image" src="/images/002.jpg" alt="">
-            <div class="card-tag">Photodiary</div>
             <h2 class="card-title">The perfect weekend getaway</h2>
             <p class="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             </p>
         </div>
-
         <div class="card">
-            <img class="card-image" src="/images/003.jpg" alt="">
-            <div class="card-tag">Photodiary</div>
+            <img src="img/003.jpg" alt="" class="card-image" />
+            <div class="card-tag">Lifestyle</div>
             <h2 class="card-title">The perfect weekend getaway</h2>
             <p class="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             </p>
         </div>
-
+        <div class="card">
+            <img src="img/004.jpg" alt="" class="card-image" />
+            <div class="card-tag">Lifestyle</div>
+            <h2 class="card-title">The perfect weekend getaway</h2>
+            <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            </p>
+        </div>
+        <div class="card">
+            <img src="img/005.jpg" alt="" class="card-image" />
+            <div class="card-tag">Lifestyle</div>
+            <h2 class="card-title">The perfect weekend getaway</h2>
+            <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            </p>
+        </div>
     </main>
-    <section class="newsletter">
-        <div class="container">
-            <div class="newsletter-title">Sign up for our newsletter!</div>
-            <input type="email" name="" id="" placeholder="Enter a valid email address">
+    <section class="newsletter dark-bg">
+        <div class="newsletter-container main-layout">
+            <h2 class="newsletter-title">Sign up for our newsletter!</h2>
+            <input type="email" name="" id="" placeholder="Enter a valid email address" />
         </div>
     </section>
-    <footer class="main-footer">
-        <div class="footer-container container flex space-between align-center">
-            <small>Terms and conditions</small>
-            <ul class="social-nav flex clean-list">
-                <li><a class="facebook" href="#"></a></li>
-                <li><a class="twitter" href="#"></a></li>
-                <li><a class="instagram" href="#"></a></li>
+    <footer class="main-footer dark-bg">
+        <small>Terms and conditions</small>
+        <div class="social-container">
+            Follow:
+            <ul>
+                <li>
+                    <a href="#" class="facebook"></a>
+                </li>
+                <li>
+                    <a href="#" class="twitter"></a>
+                </li>
+                <li>
+                    <a href="#" class="instagram"></a>
+                </li>
             </ul>
         </div>
     </footer>
 
     <script>
         function toggleMenu() {
-            document.body.classList.toggle('menu-open')
+            document.body.classList.toggle("menu-open");
         }
     </script>
 </body>
+
 </html>
