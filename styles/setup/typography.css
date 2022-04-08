@@ -1,14 +1,18 @@
+
+/* Open Sana */
 @font-face {
-    font-family: play;
-    src: url(/Fonts/Playfair/PlayfairDisplay-Regular.ttf);
+    font-family: playfair;
+    src: url(/fonts/playFair/PlayfairDisplay-Regular.ttf);
 }
 
-@font-face {
-    font-family: inconsolata;
-    src: url(/Fonts/Inconsolata/Inconsolata-Regular.ttf);
-}
-
+/* Ubuntu */
 @font-face {
     font-family: ubuntu;
-    src: url(/Fonts/Ubuntu/Ubuntu-Light.ttf);
+    src: url(/fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+
+/* Inconsalata */
+@font-face {
+    font-family: inconsolata;
+    src: url(/fonts/Inconsolata/Inconsolata-Regular.ttf);
 }

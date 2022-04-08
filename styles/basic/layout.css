@@ -1,9 +1,16 @@
 .main-layout {
+    max-width: 1060px;
     margin: 0 auto;
-    margin-right: 1.6rem;
-    margin-left: 1.6rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    box-sizing: content-box;
 }
 
-.card-layout>* {
-    margin-bottom: 60px;
+.card-layout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-layout > * {
+    margin-bottom: 48px;
 }
